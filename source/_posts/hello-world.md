@@ -49,6 +49,12 @@ title: 1/25-1/31 蝦皮全站折扣碼
   </button>
 
   <div class="coupon-grid">
+  <!-- 優惠碼按鈕 1-1 -->
+  <button class="copy-button" onclick="copyCoupon(this, 'SACNY25BV', 'https://s.shopee.tw/gAc6N0qGX')">
+    1/25
+  </button>
+
+  <div class="coupon-grid">
   <!-- 優惠碼按鈕 1 -->
   <button class="copy-button" onclick="copyCoupon(this, 'SACNY25BV', 'https://s.shopee.tw/gAc6N0qGX')">
     1/25
