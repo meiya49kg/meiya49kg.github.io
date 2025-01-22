@@ -77,6 +77,11 @@ title: 1/25-1/31 蝦皮全站折扣碼
   <button class="copy-button" onclick="copyCoupon(this, 'SACNY31BV', 'https://s.shopee.tw/gAc6N0qGX')">
     1/31
   </button>
+
+  <!-- 優惠碼按鈕 8 -->
+  <button class="copy-button" onclick="copyCoupon(this, 'SACNY31BV', 'https://s.shopee.tw/gAc6N0qGX')">
+    1/32
+  </button>
 </div>
 
 ## **全站$499-50**
@@ -112,9 +117,14 @@ title: 1/25-1/31 蝦皮全站折扣碼
     1/30
   </button>
 
-  <!-- 優惠碼按鈕 7 -->
-  <button class="copy-button" onclick="copyCoupon(this, 'FNBO31SHA', 'https://s.shopee.tw/gAc6N0qGX')">
+ <!-- 優惠碼按鈕 7 -->
+  <button class="copy-button" onclick="copyCoupon(this, 'SACNY31BV', 'https://s.shopee.tw/gAc6N0qGX')">
     1/31
+  </button>
+
+  <!-- 優惠碼按鈕 8 -->
+  <button class="copy-button" onclick="copyCoupon(this, 'SACNY31BV', 'https://s.shopee.tw/gAc6N0qGX')">
+    1/32
   </button>
 </div>
 
