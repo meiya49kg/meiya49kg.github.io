@@ -1,5 +1,12 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta name="description" content="1/25-1/31 蝦皮全站折扣碼"><meta name="keywords" content=""><meta name="author" content="John Doe"><meta name="copyright" content="John Doe"><title>1/25-1/31 蝦皮全站折扣碼 | 省錢主婦</title><link rel="icon" href="/img/favicon.ico"><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@latest/css/font-awesome.min.css"><meta name="generator" content="Hexo 7.3.0"></head><body><header id="page-header"><nav id="navbar"><span class="nav-left"><div class="tou-img"><img src="/img/mom.png"></div><span id="site-name">省錢主婦</span></span><i class="fa fa-bars toggle-menu nav-right" aria-hidden="true"></i><span class="title">1/25-1/31 蝦皮全站折扣碼</span><span class="nav-right menus"><a class="site-page" target="_blank" rel="noopener" href="https://instagram.com/meiya.49kg">Instagram</a><a class="site-page" target="_blank" rel="noopener" href="https://line.me/ti/g2/WpBA8oFZkVVTt6ECWEE79pUg1tZHHXpFa1W-3w?utm_source=invitation&amp;utm_medium=link_copy&amp;utm_campaign=default">LINE社群</a></span></nav></header><article id="content-outer"><section id="content-inner"><article id="post"><i class="fa fa-caret-right" id="toggle-sidebar" aria-hidden="true"></i><div id="sidebar" data-display="false"><div class="sidebar-toc"><div class="sidebar-toc__title">大纲</div><div class="sidebar-toc__content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%85%A8%E7%AB%99-100-20"><span class="toc-text">全站$100-20</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%85%A8%E7%AB%99-499-50"><span class="toc-text">全站$499-50</span></a></li></ol></div></div></div><div class="landing-container" id="post-content"><p>點擊按鈕自動複製代碼，跳轉網頁直接輸入領券</p>
-<h2 id="全站-100-20"><a href="#全站-100-20" class="headerlink" title="全站$100-20"></a><strong>全站$100-20</strong></h2><style>
+---
+title: 1/25-1/31 蝦皮全站折扣碼
+---
+
+點擊按鈕自動複製代碼，跳轉網頁直接輸入領券
+
+## **全站$100-20**
+
+<style>
 .coupon-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
@@ -72,7 +79,9 @@
   </button>
 </div>
 
-<h2 id="全站-499-50"><a href="#全站-499-50" class="headerlink" title="全站$499-50"></a><strong>全站$499-50</strong></h2><div class="coupon-grid">
+## **全站$499-50**
+  
+<div class="coupon-grid">
   <!-- 優惠碼按鈕 1 -->
   <button class="copy-button" onclick="copyCoupon(this, '25FNBOSHA', 'https://s.shopee.tw/gAc6N0qGX')">
     1/25
@@ -133,4 +142,3 @@ function copyCoupon(button, code, redirectUrl) {
   });
 }
 </script>
-</div></article></section></article><footer id="footer-outer"><div id="footer-inner"><p class="footer-text">Copyright &copy; 2018-2025 undefined</p></div></footer><i class="fa fa-arrow-up" id="go-up" aria-hidden="true"></i></body><script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/animejs@latest/lib/anime.min.js"></script><script src="https://cdn.jsdelivr.net/npm/velocity-animate@latest/velocity.min.js"></script><script src="https://cdn.jsdelivr.net/npm/velocity-ui-pack@latest/velocity.ui.min.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js"></script><script src="/js/utils.js" defer></script><script src="/js/transition.js" defer></script><script src="/js/fancybox.js" defer></script><script src="/js/menu.js" defer></script><script src="/js/sidebar.js" defer></script><script src="/js/scroll.js" defer></script></html>
