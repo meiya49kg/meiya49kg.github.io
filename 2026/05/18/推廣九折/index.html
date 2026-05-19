@@ -6,7 +6,7 @@
   <textarea id="shopee-batch-input" rows="6" style="width:100%;padding:12px;box-sizing:border-box;border:1.5px solid #e5e7eb;border-radius:8px;font-size:14px;font-family:inherit;resize:vertical;transition:border-color 0.2s;line-height:1.6;" placeholder="每行一個連結。" onfocus="this.style.borderColor='#004aad'" onblur="this.style.borderColor='#e5e7eb'"></textarea>
   <div style="display:flex;justify-content:space-between;align-items:center;margin-top:8px;font-size:13px;color:#999;">
     <span id="shopee-count">偵測到 0 個網址</span>
-    <span>最多 5 個</span>
+    <span>一次最多 5 個</span>
   </div>
   
   <div style="display:flex;gap:8px;margin-top:12px;">
@@ -129,14 +129,14 @@
     btn.disabled = true;
     btn.style.background = '#9ca3af';
     btn.style.cursor = 'not-allowed';
-    btn.innerHTML = `<span>⏳</span><span>處理中... (0/${urls.length})</span>`;
-    resultDiv.innerHTML = `<p style="color:#666;margin:0;padding:10px;background:#f9fafb;border-radius:6px;">⏳ 正在轉換 ${urls.length} 個網址,請稍候...</p>`;
+    btn.innerHTML = `<span></span><span>處理中... (0/${urls.length})</span>`;
+    resultDiv.innerHTML = `<p style="color:#666;margin:0;padding:10px;background:#f9fafb;border-radius:6px;">正在轉換 ${urls.length} 個網址,請稍候...</p>`;
     
     let completed = 0;
     const promises = urls.map((url, i) => 
       convertOne(url, i).then(result => {
         completed++;
-        btn.innerHTML = `<span>⏳</span><span>處理中... (${completed}/${urls.length})</span>`;
+        btn.innerHTML = `<span></span><span>處理中... (${completed}/${urls.length})</span>`;
         return result;
       })
     );
@@ -146,7 +146,7 @@
     btn.disabled = false;
     btn.style.background = MAIN_BTN_COLOR;
     btn.style.cursor = 'pointer';
-    btn.innerHTML = '<span>🔗</span><span>一鍵產生購買按鈕</span>';
+    btn.innerHTML = '<span></span><span>產生連結</span>';
     renderResults(results);
   });
 })();
