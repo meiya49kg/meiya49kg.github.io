@@ -97,16 +97,11 @@
       html += '</div></div>';
     }
     
-    if (failResults.length > 0) {
-      html += '<div style="background:#fef2f2;border:1px solid #fca5a5;border-radius:8px;padding:14px;">';
-      html += `<p style="margin:0 0 8px 0;color:#dc2626;font-weight:bold;">⚠️ ${failResults.length} 個網址轉換失敗</p>`;
-      html += '<ul style="margin:0;padding-left:20px;color:#7f1d1d;font-size:13px;">';
-      failResults.forEach(r => {
-        const shortUrl = r.originalUrl.length > 50 ? r.originalUrl.slice(0, 50) + '...' : r.originalUrl;
-        html += `<li style="margin-bottom:4px;"><code style="background:#fff;padding:2px 4px;border-radius:3px;font-size:12px;">$&#123;shortUrl&#125;</code> - ${r.error}</li>`;
-      });
-      html += '</ul></div>';
-    }
+if (failResults.length > 0) {
+  html += '<div style="background:#fef2f2;border:1px solid #fca5a5;border-radius:8px;padding:14px;">';
+  html += `<p style="margin:0;color:#dc2626;font-weight:bold;">⚠️ ${failResults.length} 個網址轉換失敗,請檢查網址是否正確</p>`;
+  html += '</div>';
+}
     
     resultDiv.innerHTML = html;
   }
