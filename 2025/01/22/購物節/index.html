@@ -36,9 +36,54 @@
 
 </div>
 
-<h1 id="11-11-購物節懶人包"><a href="#11-11-購物節懶人包" class="headerlink" title="11.11 購物節懶人包"></a><strong>11.11 購物節懶人包</strong></h1><h2 id="【全站-商城優惠券】"><a href="#【全站-商城優惠券】" class="headerlink" title="【全站&#x2F;商城優惠券】"></a><strong>【全站&#x2F;商城優惠券】</strong></h2><p>⮕ 【11&#x2F;10】<br>▪️全站 100% 蝦幣回饋<br>  （20、21、22、23點開搶）<br>▪️全站 $999-80<br>▪️全站 95折、商城 94折<br>—<br>⮕ 【11&#x2F;11】<br>▪️全站 100%蝦幣回饋<br>  （00、01、02、12、13、14、19、20、21、22、23點開搶）<br>▪️全站 28%蝦幣（刷卡）<br>▪️商城 $1000-200<br>▪️商城 $1000-200蝦<br>▪️全站 $1000-200 （00、12、18點）<br>▪️商城 9～93折<br>▪️全站 92～93折<br>▪️5～10% 蝦幣回饋<br>▪️全日整點 $299-30<br>—<br> 【11&#x2F;12、11&#x2F;13】<br>▪️全站 28%蝦幣（刷卡）<br>▪️全站 100%蝦幣回饋<br>▪️全站 $699-50</p>
-<h2 id="【免運門檻-免運券】"><a href="#【免運門檻-免運券】" class="headerlink" title="【免運門檻&#x2F;免運券】"></a><strong>【免運門檻&#x2F;免運券】</strong></h2><p>🔸00:00-00:30 $0免運<br>🔸VIP會員 $49免運<br>🔸店到店 $99免運<br>🔸$299免運券*11張（7-11、萊爾富、全家）<br>🔸全家冷凍 $699免運</p>
-<div class="coupon-grid">
+<h1 id="11-11-購物節懶人包"><a href="#11-11-購物節懶人包" class="headerlink" title="11.11 購物節懶人包"></a><strong>11.11 購物節懶人包</strong></h1><style>
+.ig-wrap{position:relative;}
+.ig-carousel{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;border-radius:8px;align-items:flex-start;}
+.ig-carousel::-webkit-scrollbar{display:none;}
+.ig-carousel > *{flex:0 0 100%;width:100%;scroll-snap-align:center;margin:0 !important;}
+.ig-carousel img{width:100%;height:auto;margin:0 !important;display:block;}
+.ig-btn{position:absolute;top:50%;transform:translateY(-50%);width:32px;height:32px;border:none;border-radius:50%;background:rgba(255,255,255,.85);font-size:22px;line-height:1;cursor:pointer;z-index:2;}
+.ig-prev{left:8px;}.ig-next{right:8px;}
+.ig-dots{text-align:center;margin-top:8px;}
+.ig-dots span{display:inline-block;width:6px;height:6px;margin:0 3px;border-radius:50%;background:#ccc;}
+.ig-dots span.on{background:#3897f0;}
+</style>
+<div class="ig-carousel">
+  <img src="https://i.meee.com.tw/itqvqCT.png" alt="">
+  <img src="https://i.meee.com.tw/4o2siFz.png" alt="">
+  <img src="https://i.meee.com.tw/tgw3ZD3.png" alt="">
+  <img src="https://i.meee.com.tw/qtjbPuD.png" alt="">
+  <img src="https://i.meee.com.tw/EumyzjB.png" alt="">
+  <img src="https://i.meee.com.tw/xkmCyCg.png" alt="">
+  <img src="https://i.meee.com.tw/CucMzGH.png" alt="">
+  <img src="https://i.meee.com.tw/PEFiyIN.png" alt="">
+  <img src="https://i.meee.com.tw/c4N6KLl.png" alt="">
+  <img src="https://i.meee.com.tw/SyskyyK.png" alt="">
+</div>
+<script>
+document.querySelectorAll('.ig-carousel').forEach(function(c){
+  if(c.parentNode.classList.contains('ig-wrap'))return;
+  var w=document.createElement('div');w.className='ig-wrap';
+  c.parentNode.insertBefore(w,c);w.appendChild(c);
+  var n=c.children.length;
+  var p=document.createElement('button');p.className='ig-btn ig-prev';p.innerHTML='&#8249;';
+  var x=document.createElement('button');x.className='ig-btn ig-next';x.innerHTML='&#8250;';
+  var d=document.createElement('div');d.className='ig-dots';
+  for(var i=0;i<n;i++)d.appendChild(document.createElement('span'));
+  w.appendChild(p);w.appendChild(x);w.appendChild(d);
+  function cur(){return Math.round(c.scrollLeft/c.clientWidth);}
+  function go(k){c.scrollTo({left:k*c.clientWidth,behavior:'smooth'});}
+  p.onclick=function(){go(cur()-1);};
+  x.onclick=function(){go(cur()+1);};
+  function upd(){var k=cur();for(var j=0;j<n;j++)d.children[j].className=(j===k?'on':'');p.style.display=(k===0?'none':'');x.style.display=(k===n-1?'none':'');}
+  c.addEventListener('scroll',upd);upd();
+});
+</script>
+
+
+
+
+<h2 id="【全站-商城優惠券】"><a href="#【全站-商城優惠券】" class="headerlink" title="【全站&#x2F;商城優惠券】"></a><strong>【全站&#x2F;商城優惠券】</strong></h2><div class="coupon-grid">
 
   <!-- 優惠碼按鈕 1 -->
   <button class="copy-button" onclick="copyCoupon(this, '1', 'https://s.shopee.tw/8AXMrVyjFx')">
@@ -47,6 +92,8 @@
 
   </div>
 
+
+<h2 id="【免運門檻-免運券】"><a href="#【免運門檻-免運券】" class="headerlink" title="【免運門檻&#x2F;免運券】"></a><strong>【免運門檻&#x2F;免運券】</strong></h2><p>🔸00:00-00:30 $0免運<br>🔸VIP會員 $49免運<br>🔸店到店 $99免運<br>🔸$299免運券*11張（7-11、萊爾富、全家）<br>🔸全家冷凍 $699免運</p>
 <h2 id="【指定信用卡優惠】"><a href="#【指定信用卡優惠】" class="headerlink" title="【指定信用卡優惠】"></a><strong>【指定信用卡優惠】</strong></h2><p>▪️全站 9折、商城 88折<br>▪️國泰 85折（蝦皮直營）<br>▪️指定卡滿額折萬</p>
 <div class="coupon-grid">
 
